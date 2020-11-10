@@ -32,7 +32,7 @@ public class DeliveryApp {
     }
 
     public static void main(String[] args) {
-        DeliveryApp delivery = new DeliveryApp(5, 3);
+        DeliveryApp delivery = new DeliveryApp(20, 3);
         delivery.startOperation();
     }
 }
