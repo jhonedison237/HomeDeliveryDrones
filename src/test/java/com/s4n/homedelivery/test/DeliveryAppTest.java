@@ -28,7 +28,6 @@ public class DeliveryAppTest {
 
     @BeforeClass
     public static void setup() {
-        System.out.println("set up");
 
         FileUtil.deleteDirectoryContent(Paths.get(PATH_RESOURCES, IN_DIRECTORY));
         FileUtil.deleteDirectoryContent(Paths.get(PATH_RESOURCES, OUT_DIRECTORY));
@@ -45,10 +44,7 @@ public class DeliveryAppTest {
             String fileName = "in" + i + ".txt";
             FileUtil.writeContentToFile(fileName, Paths.get(PATH_RESOURCES, IN_DIRECTORY), testInputContent);
         }
-        long init = System.currentTimeMillis();
         executeDrones(droneList);
-        long end = System.currentTimeMillis();
-        System.out.println("Tiempo total: " + (end - init) / 1000);
     }
 
     @Test
