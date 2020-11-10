@@ -1,0 +1,9 @@
+== Reporte de entregas ==
+(3, 0) dirección Oriente
+(4, 1) dirección Oriente
+(2, 3) dirección Norte
+(0, -1) dirección Sur
+Error al procesar las instrucciones: La instrucción no es válida [X]
+Orden no entregada debido a desajuste de instrucciones
+(-1, -1) dirección Sur
+(-2, -1) dirección Occidente
